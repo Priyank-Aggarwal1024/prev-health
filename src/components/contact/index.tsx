@@ -15,7 +15,7 @@ function Contact() {
                     Still have questions?<br />
                     Let's Talk
                 </h2>
-                <button className="bg-white cursor-pointer text-cyan-900 text-sm md:text-base font-medium font-[Work_Sans] leading-tight md:leading-snug px-6 py-3.5 md:px-8 md:py-4 rounded-[48px] hover:bg-cyan-50 transition-colors duration-200">
+                <button className="bg-white cursor-pointer text-[#23586A] text-sm md:text-base font-medium font-[Work_Sans] leading-tight md:leading-snug px-6 py-3.5 md:px-8 md:py-4 rounded-[48px] hover:bg-cyan-50 transition-colors duration-200">
                     Contact Us
                 </button>
             </div>

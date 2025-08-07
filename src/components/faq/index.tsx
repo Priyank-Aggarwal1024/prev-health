@@ -47,12 +47,12 @@ export default function Faq() {
                 {/* Header */}
                 <div className="w-full max-w-[582px] flex flex-col items-center gap-3 md:gap-4">
                     <div className="flex items-center gap-1 py-0.5 rounded-[10px]">
-                        <div className="w-2.5 h-2.5 bg-rose-400 rounded-full" />
-                        <span className="text-sm md:text-base text-neutral-600 font-normal font-[Work_Sans] leading-tight md:leading-snug">
+                        <div className="w-2.5 h-2.5 bg-[#FD8883] rounded-full" />
+                        <span className="text-sm md:text-base text-[#555] font-normal font-[Work_Sans] leading-tight md:leading-snug">
                             FAQS
                         </span>
                     </div>
-                    <h2 className="text-3xl md:text-5xl text-cyan-900 font-medium font-[Lora] leading-10 md:leading-[62.40px] text-center">
+                    <h2 className="text-3xl md:text-5xl text-[#23586A] font-medium font-[Lora] leading-10 md:leading-[62.40px] text-center">
                         Your Questions Answered
                     </h2>
                 </div>
@@ -67,7 +67,7 @@ export default function Faq() {
                                     onClick={() => toggleFaq(index)}
                                 >
                                     <div className="flex-1">
-                                        <h3 className="text-base md:text-xl text-neutral-600 font-normal font-[Work_Sans] leading-snug md:leading-7">
+                                        <h3 className="text-base md:text-xl text-[#555] font-normal font-[Work_Sans] leading-snug md:leading-7">
                                             {item.question}
                                         </h3>
                                         {openIndex === index && (

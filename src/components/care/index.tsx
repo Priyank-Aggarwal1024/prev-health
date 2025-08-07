@@ -7,15 +7,15 @@ function Care() {
             <div className="w-full max-w-[1280px] mx-auto flex flex-col items-center gap-8 md:gap-14">
                 <div className="w-full max-w-[579px] flex flex-col items-center gap-3 md:gap-4 text-center">
                     <div className="flex items-center gap-1 py-0.5 rounded-[10px]">
-                        <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-rose-400 rounded-full" />
-                        <span className="text-sm md:text-base text-neutral-600 font-normal font-[Work_Sans] leading-[135%]">
+                        <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-[#FD8883] rounded-full" />
+                        <span className="text-sm md:text-base text-[#555] font-normal font-[Work_Sans] leading-[135%]">
                             PLATFORM FEATURES
                         </span>
                     </div>
-                    <h2 className="text-3xl md:text-5xl text-cyan-900 font-medium font-[Lora] leading-[135%]">
+                    <h2 className="text-3xl md:text-5xl text-[#23586A] font-medium font-[Lora] leading-[135%]">
                         Designed to Support Both Sides of Care
                     </h2>
-                    <p className="text-base md:text-xl text-neutral-600 font-normal font-[Work_Sans] leading-[135%]">
+                    <p className="text-base md:text-xl text-[#555] font-normal font-[Work_Sans] leading-[135%]">
                         We empower both doctors and patients with seamless, time-saving features all in one customizable platform
                     </p>
                 </div>
@@ -26,7 +26,7 @@ function Care() {
                                 <h3 className="text-xl md:text-3xl text-neutral-700 font-medium font-[Work_Sans] leading-[135%]">
                                     Centralized Doctor Dashboard
                                 </h3>
-                                <p className="text-base text-neutral-600 font-normal font-[Work_Sans] leading-[135%]">
+                                <p className="text-base text-[#555] font-normal font-[Work_Sans] leading-[135%]">
                                     One secure place for everything, from patient information to consultations, so you can focus more on care and less on clicking around.
                                 </p>
                             </div>
@@ -43,7 +43,7 @@ function Care() {
                             <h3 className="text-xl md:text-3xl text-neutral-700 font-medium font-[Work_Sans] leading-[135%]">
                                 Guided Questionnaires
                             </h3>
-                            <p className="text-base text-neutral-600 font-normal font-[Work_Sans] leading-[135%]">
+                            <p className="text-base text-[#555] font-normal font-[Work_Sans] leading-[135%]">
                                 Just follow a few simple steps and we'll help you share exactly what your doctor needs to know.
                             </p>
                             <img src={questionnaires} alt="Guided Questionnaires" className="" />
@@ -54,7 +54,7 @@ function Care() {
                                 <h3 className="text-xl md:text-3xl text-neutral-700 font-medium font-[Work_Sans] leading-[135%] pb-4">
                                     AI Enabled Transcription & Summarization
                                 </h3>
-                                <p className="text-base text-neutral-600 font-normal font-[Work_Sans] leading-[135%]">
+                                <p className="text-base text-[#555] font-normal font-[Work_Sans] leading-[135%]">
                                     Make changes to notes hands-free — just speak and it updates.
                                 </p>
                             </div>
@@ -76,7 +76,7 @@ function Care() {
                                 <h3 className="text-xl md:text-3xl text-neutral-700 font-medium font-[Work_Sans] leading-[135%] pb-4">
                                     Digital Consults: Chat, Audio & Video
                                 </h3>
-                                <p className="text-base text-neutral-600 font-normal font-[Work_Sans] leading-[135%]">
+                                <p className="text-base text-[#555] font-normal font-[Work_Sans] leading-[135%]">
                                     Patients connect easily. Doctors respond quickly — anytime, anywhere.
                                 </p>
                             </div>
@@ -86,7 +86,7 @@ function Care() {
                             <h3 className="text-xl md:text-3xl text-neutral-700 font-medium font-[Work_Sans] leading-[135%]">
                                 Quick Service Selection
                             </h3>
-                            <p className="text-base text-neutral-600 font-normal font-[Work_Sans] leading-[135%]">
+                            <p className="text-base text-[#555] font-normal font-[Work_Sans] leading-[135%]">
                                 Choose your region and health need in seconds.
                             </p>
                             <div className="relative w-full flex justify-center h-full">

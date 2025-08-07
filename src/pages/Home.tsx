@@ -7,10 +7,10 @@ export default function Home() {
         <div className="w-full">
             <section className="w-full flex flex-col items-center gap-10 px-5 py-24 sm:px-10 sm:py-32">
                 <div className="flex flex-col items-center gap-5 max-w-[1023px]">
-                    <h1 className="text-center text-cyan-900 font-medium font-[Lora] leading-[135%] text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+                    <h1 className="text-center text-[#23586A] font-medium font-[Lora] leading-[135%] text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
                         The Operating System for Modern Healthcare
                     </h1>
-                    <p className="text-center text-neutral-600 font-normal font-[Work_Sans] text-base sm:text-lg md:text-xl leading-[135%] max-w-[975px]">
+                    <p className="text-center text-[#555] font-normal font-[Work_Sans] text-base sm:text-lg md:text-xl leading-[135%] max-w-[975px]">
                         We’ve reimagined care to be smarter, faster, and more human. PrevHealth
                         provides the tools that help care teams stay connected and focused on
                         the patient, so care happens naturally, when and where it’s needed most.
@@ -26,26 +26,26 @@ export default function Home() {
             <div className="w-full max-w-[1560px] mx-auto md:min-h-[384px] min-h-[633px] bg-[#F7FDFF] overflow-hidden flex items-center justify-center p-6">
                 <div className="max-w-6xl w-full flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 lg:gap-32">
                     <div className="max-w-64 w-full flex flex-col items-center gap-3">
-                        <div className="text-7xl md:text-8xl font-semibold font-[Work_Sans] text-cyan-900 leading-[135%]">
+                        <div className="text-7xl md:text-8xl font-semibold font-[Work_Sans] text-[#23586A] leading-[135%]">
                             x5
                         </div>
-                        <div className="text-base md:text-xl font-normal font-[Work_Sans] text-neutral-600 leading-[135%] text-center">
+                        <div className="text-base md:text-xl font-normal font-[Work_Sans] text-[#555] leading-[135%] text-center">
                             Increase in Caregiver Productivity
                         </div>
                     </div>
                     <div className="max-w-72 w-full flex flex-col items-center gap-3">
-                        <div className="text-7xl md:text-8xl font-semibold font-[Work_Sans] text-cyan-900 leading-[135%]">
+                        <div className="text-7xl md:text-8xl font-semibold font-[Work_Sans] text-[#23586A] leading-[135%]">
                             500K+
                         </div>
-                        <div className="text-base md:text-xl font-normal font-[Work_Sans] text-neutral-600 leading-[135%] text-center">
+                        <div className="text-base md:text-xl font-normal font-[Work_Sans] text-[#555] leading-[135%] text-center">
                             Patients served in First year of operations
                         </div>
                     </div>
                     <div className="max-w-64 w-full flex flex-col items-center gap-3">
-                        <div className="text-7xl md:text-8xl font-semibold font-[Work_Sans] text-cyan-900 leading-[135%]">
+                        <div className="text-7xl md:text-8xl font-semibold font-[Work_Sans] text-[#23586A] leading-[135%]">
                             &gt;40%
                         </div>
-                        <div className="text-base md:text-xl font-normal font-[Work_Sans] text-neutral-600 leading-[135%] text-center">
+                        <div className="text-base md:text-xl font-normal font-[Work_Sans] text-[#555] leading-[135%] text-center">
                             Operating Cost Reduction
                         </div>
                     </div>
@@ -54,15 +54,15 @@ export default function Home() {
             <section className="w-full  max-w-[1560px] mx-auto md:pt-[122px] md:pb-[70px] pb-[50px] pt-32 bg-white">
                 <div className="w-full max-w-[937px] mx-auto flex flex-col items-center gap-3 md:gap-4 px-4">
                     <div className="flex items-center gap-1 py-0.5 rounded-[10px]">
-                        <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-rose-400 rounded-full" />
-                        <div className="text-sm md:text-base text-neutral-600 font-normal font-[Work_Sans] leading-tight md:leading-snug">
+                        <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-[#FD8883] rounded-full" />
+                        <div className="text-sm md:text-base text-[#555] font-normal font-[Work_Sans] leading-tight md:leading-snug">
                             CARE THAT WORKS FOR EVERYONE
                         </div>
                     </div>
-                    <h2 className="text-3xl md:text-5xl text-cyan-900 font-medium font-[Lora] leading-10 md:leading-[62.40px] text-center">
+                    <h2 className="text-3xl md:text-5xl text-[#23586A] font-medium font-[Lora] leading-10 md:leading-[62.40px] text-center">
                         Built for Doctors. Designed for Patients. Powered by Smart AI.
                     </h2>
-                    <p className="text-base md:text-xl text-neutral-600 font-normal font-[Work_Sans] leading-snug md:leading-7 text-center">
+                    <p className="text-base md:text-xl text-[#555] font-normal font-[Work_Sans] leading-snug md:leading-7 text-center">
                         Whether you're treating patients or looking for care yourself, PrevHealth brings everything together in one place—faster consults, smarter tools, and tech that stays out of the way but keeps everything running smoothly
                     </p>
                 </div>
@@ -72,11 +72,11 @@ export default function Home() {
                     <div className="w-full h-full flex items-end justify-start mt-auto">
                         <div className="w-full lg:max-w-[579px] flex flex-col items-start gap-3 md:gap-4">
                             <div className="flex items-center gap-1 py-0.5 rounded-[10px]">
-                                <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-rose-400 rounded-full" />
-                                <span className="text-sm md:text-base text-neutral-600 font-normal font-[Work_Sans] leading-[135%]">FOR DOCTORS</span>
+                                <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-[#FD8883] rounded-full" />
+                                <span className="text-sm md:text-base text-[#555] font-normal font-[Work_Sans] leading-[135%]">FOR DOCTORS</span>
                             </div>
-                            <h2 className="text-3xl md:text-5xl text-cyan-900 font-medium font-[Lora] leading-[135%]">Less Admin. More Time for Real Care.</h2>
-                            <p className="text-base md:text-xl text-neutral-600 font-normal font-[Work_Sans] leading-[135%]">PrevHealth helps doctors focus on what matters. With AI-generated notes, smart intake summaries, and a unified dashboard, you can spend less time on administrative work and more time connecting with patients.</p>
+                            <h2 className="text-3xl md:text-5xl text-[#23586A] font-medium font-[Lora] leading-[135%]">Less Admin. More Time for Real Care.</h2>
+                            <p className="text-base md:text-xl text-[#555] font-normal font-[Work_Sans] leading-[135%]">PrevHealth helps doctors focus on what matters. With AI-generated notes, smart intake summaries, and a unified dashboard, you can spend less time on administrative work and more time connecting with patients.</p>
                             <Button>Explore More</Button>
                         </div>
                     </div>
@@ -88,11 +88,11 @@ export default function Home() {
                     <div className="w-full h-full flex items-end justify-end mt-auto">
                         <div className="w-full lg:max-w-[579px] flex flex-col items-start gap-3 md:gap-4">
                             <div className="flex items-center gap-1 py-0.5 rounded-[10px]">
-                                <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-rose-400 rounded-full" />
-                                <span className="text-sm md:text-base text-neutral-600 font-normal font-[Work_Sans] leading-[135%]">FOR PATIENTS</span>
+                                <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-[#FD8883] rounded-full" />
+                                <span className="text-sm md:text-base text-[#555] font-normal font-[Work_Sans] leading-[135%]">FOR PATIENTS</span>
                             </div>
-                            <h2 className="text-3xl md:text-5xl text-cyan-900 font-medium font-[Lora] leading-[135%]">Faster Answers. Happier Outcomes</h2>
-                            <p className="text-base md:text-xl text-neutral-600 font-normal font-[Work_Sans] leading-[135%]">PrevHealth helps your patients get care without the friction - no crowded waiting rooms, no clunky intake. They choose their service, fill out a short guided form, and connect with your providers through secure chat, call, or video. Follow-ups and updates are built in, so they feel supported every step of the way.</p>
+                            <h2 className="text-3xl md:text-5xl text-[#23586A] font-medium font-[Lora] leading-[135%]">Faster Answers. Happier Outcomes</h2>
+                            <p className="text-base md:text-xl text-[#555] font-normal font-[Work_Sans] leading-[135%]">PrevHealth helps your patients get care without the friction - no crowded waiting rooms, no clunky intake. They choose their service, fill out a short guided form, and connect with your providers through secure chat, call, or video. Follow-ups and updates are built in, so they feel supported every step of the way.</p>
                             <Button>Explore More</Button>
                         </div>
                     </div>
@@ -104,11 +104,11 @@ export default function Home() {
                     <div className="w-full h-full flex items-end justify-start mt-auto">
                         <div className="w-full lg:max-w-[579px] flex flex-col items-start gap-3 md:gap-4">
                             <div className="flex items-center gap-1 py-0.5 rounded-[10px]">
-                                <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-rose-400 rounded-full" />
-                                <span className="text-sm md:text-base text-neutral-600 font-normal font-[Work_Sans] leading-[135%]">POWERED BY AI</span>
+                                <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-[#FD8883] rounded-full" />
+                                <span className="text-sm md:text-base text-[#555] font-normal font-[Work_Sans] leading-[135%]">POWERED BY AI</span>
                             </div>
-                            <h2 className="text-3xl md:text-5xl text-cyan-900 font-medium font-[Lora] leading-[135%]">AI That Listens & Lightens the Load</h2>
-                            <p className="text-base md:text-xl text-neutral-600 font-normal font-[Work_Sans] leading-[135%]">PrevHealth's AI handles the busywork, transcribing consults, generating medical notes, transferring to EHR, so your clinicians can focus on care. For patients, it means faster appointments, fewer forms, and a more connected experience, all quietly powered behind the scenes.</p>
+                            <h2 className="text-3xl md:text-5xl text-[#23586A] font-medium font-[Lora] leading-[135%]">AI That Listens & Lightens the Load</h2>
+                            <p className="text-base md:text-xl text-[#555] font-normal font-[Work_Sans] leading-[135%]">PrevHealth's AI handles the busywork, transcribing consults, generating medical notes, transferring to EHR, so your clinicians can focus on care. For patients, it means faster appointments, fewer forms, and a more connected experience, all quietly powered behind the scenes.</p>
                             <Button>Explore More</Button>
                         </div>
                     </div>
@@ -121,21 +121,21 @@ export default function Home() {
             <section className="w-full px-5 sm:px-10 lg:px-20 py-16 md:pb-24 md:pt-20 overflow-hidden max-w-[1560px] mx-auto">
                 <div className="w-full flex flex-col lg:flex-row justify-start items-center gap-8 lg:gap-20">
                     <div className="w-full lg:w-[613px] flex flex-col justify-start items-start gap-6 lg:gap-8">
-                        <div className="self-stretch flex flex-col justify-start items-start gap-4">
+                        <div className="flex flex-col justify-start items-start gap-4">
                             <div className="w-full lg:w-[524px] flex flex-col justify-start items-start gap-1">
                                 <div className="py-0.5 rounded-[10px] inline-flex justify-center items-center gap-1">
-                                    <div className="w-2.5 h-2.5 bg-rose-400 rounded-full" />
-                                    <div className="text-center text-neutral-600 text-sm md:text-base font-normal font-['Work_Sans'] leading-tight md:leading-snug">WHO WE ARE</div>
+                                    <div className="w-2.5 h-2.5 bg-[#FD8883] rounded-full" />
+                                    <div className="text-center text-[#555] text-sm md:text-base font-normal font-['Work_Sans'] leading-tight md:leading-snug">WHO WE ARE</div>
                                 </div>
-                                <div className="self-stretch text-cyan-900 text-3xl md:text-4xl lg:text-5xl font-medium font-['Lora'] leading-10 md:leading-[54px] lg:leading-[62.40px]">
+                                <div className="text-[#23586A] text-3xl md:text-4xl lg:text-5xl font-medium font-['Lora'] leading-10 md:leading-[54px] lg:leading-[62.40px]">
                                     Smarter Care. Stronger Connections.
                                 </div>
                             </div>
-                            <div className="self-stretch flex flex-col justify-start items-start gap-4">
-                                <div className="self-stretch text-neutral-600 text-base md:text-lg lg:text-xl font-normal font-['Work_Sans'] leading-snug md:leading-6 lg:leading-7">
+                            <div className="flex flex-col justify-start items-start gap-4">
+                                <div className="text-[#555] text-base md:text-lg lg:text-xl font-normal font-['Work_Sans'] leading-snug md:leading-6 lg:leading-7">
                                     PrevHealth is a B2B SaaS platform built by European medical professionals and technologists who believe that better healthcare starts with better tools.
                                 </div>
-                                <div className="self-stretch text-neutral-600 text-base md:text-lg lg:text-xl font-normal font-['Work_Sans'] leading-snug md:leading-6 lg:leading-7">
+                                <div className="text-[#555] text-base md:text-lg lg:text-xl font-normal font-['Work_Sans'] leading-snug md:leading-6 lg:leading-7">
                                     We offer an end-to-end suite of features, from appointment booking and video consultations to AI-powered medical notes and EHR integration, that helps clinics digitize their services under their own brand.
                                 </div>
                             </div>
@@ -158,11 +158,11 @@ export default function Home() {
             <div className="w-full max-w-[1560px] mx-auto px-5 sm:px-10 lg:px-20 py-16 md:pb-24 md:pt-20 flex flex-col items-center gap-16 md:gap-18 ">
                 <div className="w-full max-w-[609px] flex flex-col items-center gap-3 md:gap-4 text-center">
                     <div className="flex items-center gap-1 py-0.5 rounded-[10px]">
-                        <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-rose-400 rounded-full" />
-                        <span className="text-sm md:text-base text-neutral-600 font-normal font-[Work_Sans] leading-[135%]">OUR CORE VALUES</span>
+                        <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-[#FD8883] rounded-full" />
+                        <span className="text-sm md:text-base text-[#555] font-normal font-[Work_Sans] leading-[135%]">OUR CORE VALUES</span>
                     </div>
-                    <h2 className="text-3xl md:text-5xl text-cyan-900 font-medium font-[Lora] leading-[135%]">What Drives Us</h2>
-                    <p className="text-base md:text-xl text-neutral-600 font-normal font-[Work_Sans] leading-[135%]">
+                    <h2 className="text-3xl md:text-5xl text-[#23586A] font-medium font-[Lora] leading-[135%]">What Drives Us</h2>
+                    <p className="text-base md:text-xl text-[#555] font-normal font-[Work_Sans] leading-[135%]">
                         At our core, we're here to bridge the gap between access and quality with modern care that works for everyone.
                     </p>
                 </div>
@@ -191,11 +191,11 @@ export default function Home() {
                                 <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center">
                                     {item.icon}
                                 </div>
-                                <h3 className="text-xl md:text-2xl text-cyan-900 font-medium font-[Lora] leading-[130%] text-center">
+                                <h3 className="text-xl md:text-2xl text-[#23586A] font-medium font-[Lora] leading-[130%] text-center">
                                     {item.title}
                                 </h3>
                             </div>
-                            <p className="text-base md:text-xl text-neutral-600 font-normal font-[Work_Sans] leading-[135%] text-center">
+                            <p className="text-base md:text-xl text-[#555] font-normal font-[Work_Sans] leading-[135%] text-center">
                                 {item.desc}
                             </p>
                         </div>

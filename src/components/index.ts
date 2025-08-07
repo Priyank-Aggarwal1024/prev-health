@@ -5,4 +5,16 @@ import Faq from "./faq";
 import Contact from "./contact";
 import Testimonials from "./testimonials";
 import Care from "./care";
-export { Navbar, Footer, Button, Faq, Contact, Testimonials, Care };
+import Features from "./features";
+import Workflow from "./workflow";
+export {
+  Navbar,
+  Footer,
+  Button,
+  Faq,
+  Contact,
+  Testimonials,
+  Care,
+  Features,
+  Workflow,
+};

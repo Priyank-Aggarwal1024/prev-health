@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { cn } from "../../lib";
 import { globe, logo } from "../../assets";
 import Button from "../button";
@@ -15,7 +15,7 @@ const Navbar = () => {
   const location = useLocation();
   const currentPath = location.pathname;
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
+  const navigate = useNavigate()
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
@@ -43,8 +43,8 @@ const Navbar = () => {
                   className={cn(
                     "text-sm md:text-base font-normal font-[Work_Sans] leading-snug",
                     isActive
-                      ? "text-cyan-900 font-medium"
-                      : "text-cyan-900 hover:text-rose-500 transition",
+                      ? "text-[#23586A] font-medium"
+                      : "text-[#23586A] hover:text-rose-500 transition",
                     "py-1"
                   )}
                 >
@@ -52,8 +52,8 @@ const Navbar = () => {
                 </div>
                 <div
                   className={cn(
-                    "h-0.5 rounded-lg transition-all duration-300",
-                    isActive ? "self-stretch bg-rose-400" : "w-0 bg-rose-400"
+                    "h-0.5 rounded-lg transition-all duration-400",
+                    isActive ? "bg-[#FD8883] w-full" : "w-0 bg-[#FD8883]"
                   )}
                 />
               </Link>
@@ -62,19 +62,19 @@ const Navbar = () => {
         </nav>
 
         <div className="flex items-center gap-1.5 sm:gap-3">
-          <Button className="hidden md:inline-flex">
+          <Button className="hidden md:inline-flex" onClick={() => navigate('/contact-us')}>
             Contact Us
           </Button>
           <div className="hidden md:inline-flex items-center px-3 sm:px-8 py-1.5 sm:py-3 rounded-full outline-1 outline-slate-400 gap-[3px] cursor-pointer">
             <img src={globe} alt="Globe" className="w-4 sm:w-5 h-4 sm:h-5 object-contain" />
-            <span className="text-cyan-900 text-xs sm:text-sm font-medium font-[Work_Sans] leading-snug">
+            <span className="text-[#23586A] text-xs sm:text-sm font-medium font-[Work_Sans] leading-snug">
               English
             </span>
           </div>
 
           <div className="md:hidden">
             <button
-              className="text-cyan-900 focus:outline-none p-1"
+              className="text-[#23586A] focus:outline-none p-1"
               onClick={toggleMobileMenu}
             >
               {isMobileMenuOpen ? (
@@ -122,7 +122,7 @@ const Navbar = () => {
                     to={item.path}
                     className={cn(
                       "py-2 px-2 text-sm font-medium border-b border-gray-100",
-                      isActive ? "text-rose-500" : "text-cyan-900"
+                      isActive ? "text-rose-500" : "text-[#23586A]"
                     )}
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
@@ -134,7 +134,7 @@ const Navbar = () => {
                 <Button>Contact Us</Button>
                 <div className="flex items-center justify-center px-3 py-2 rounded-full outline-1 outline-slate-400 gap-1">
                   <img src={globe} alt="Globe" className="w-4 h-4 object-contain" />
-                  <span className="text-cyan-900 text-xs font-medium font-[Work_Sans] leading-snug">
+                  <span className="text-[#23586A] text-xs font-medium font-[Work_Sans] leading-snug">
                     English
                   </span>
                 </div>

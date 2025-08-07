@@ -18,7 +18,20 @@ import templateDropdown from "./template-dropdown.png";
 import dashboard from "./dashboard.png";
 import aiTranscription from "./ai-transcription.png";
 import smartCare from "./smart-care.png";
-
+import heroAi from "./heroAi.png";
+import heroAIMobile from "./heroAi-mobile.png";
+import feat1 from "./feat1.svg";
+import feat2 from "./feat2.svg";
+import feat3 from "./feat3.svg";
+import feat4 from "./feat4.svg";
+import feat5 from "./feat5.svg";
+import feat6 from "./feat6.svg";
+import feat7 from "./feat7.svg";
+import feat8 from "./feat8.svg";
+import feat9 from "./feat9.svg";
+import workflow1 from "./workflow1.png";
+import workflow2 from "./workflow2.png";
+import workflow3 from "./workflow3.png";
 export {
   logo,
   globe,
@@ -40,4 +53,18 @@ export {
   dashboard,
   aiTranscription,
   smartCare,
+  heroAi,
+  heroAIMobile,
+  feat1,
+  feat2,
+  feat3,
+  feat4,
+  feat5,
+  feat6,
+  feat7,
+  feat8,
+  feat9,
+  workflow1,
+  workflow2,
+  workflow3,
 };

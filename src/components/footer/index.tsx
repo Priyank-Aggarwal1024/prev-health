@@ -34,7 +34,7 @@ export default function Footer() {
                         <div className="flex flex-col gap-4 w-36">
                             {['AI Features', 'Platform Features', 'About Us', 'Contact Us'].map((link) => (
                                 <div key={link} className="group flex flex-col items-start gap-0.5 cursor-pointer">
-                                    <span className="text-zinc-500 text-base font-normal font-[Work_Sans] group-hover:text-cyan-900">
+                                    <span className="text-zinc-500 text-base font-normal font-[Work_Sans] group-hover:text-[#23586A]">
                                         {link}
                                     </span>
                                     <div className="w-0 h-0.5 bg-cyan-900 rounded-lg group-hover:w-full transition-all" />
@@ -44,7 +44,7 @@ export default function Footer() {
                         <div className="flex flex-col gap-4 w-[160px]">
                             {['Privacy Policy', 'Terms & Conditions'].map((link) => (
                                 <div key={link} className="group flex flex-col items-start gap-0.5 cursor-pointer">
-                                    <span className="text-zinc-500 text-base font-normal font-[Work_Sans] group-hover:text-cyan-900">
+                                    <span className="text-zinc-500 text-base font-normal font-[Work_Sans] group-hover:text-[#23586A]">
                                         {link}
                                     </span>
                                     <div className="w-0 h-0.5 bg-cyan-900 rounded-lg group-hover:w-full transition-all" />
