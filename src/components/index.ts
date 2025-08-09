@@ -8,6 +8,7 @@ import Care from "./care";
 import Features from "./features";
 import Workflow from "./workflow";
 import StakeHolder from "./stakeholder";
+import Steps from "./steps";
 export {
   Navbar,
   Footer,
@@ -19,4 +20,5 @@ export {
   Features,
   Workflow,
   StakeHolder,
+  Steps,
 };

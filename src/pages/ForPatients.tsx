@@ -1,5 +1,5 @@
-import { digitalConsultation, fastAccess, heroPatient, patientNeed1, patientNeed2, patientNeed3, patientNeed4, patientNeed5, templateDropdown } from "../assets";
-import { Button, Contact, Faq, StakeHolder } from "../components";
+import { customize, demo, digitalConsultation, fastAccess, heroPatient, patientNeed1, patientNeed2, patientNeed3, patientNeed4, patientNeed5, rocket, support, templateDropdown } from "../assets";
+import { Button, Contact, Faq, StakeHolder, Steps } from "../components";
 
 function ForPatients() {
     return (<div className="w-full">
@@ -170,6 +170,7 @@ function ForPatients() {
                 Book a Demo Today
             </Button>
         </section>
+        <Steps />
         <StakeHolder />
         <Faq />
         <Contact />
