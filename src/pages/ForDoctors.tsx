@@ -1,5 +1,5 @@
 import { cloud, customize, demo, ecosystem1, ecosystem2, ecosystem3, ecosystem5, ecosystem6, gdpr, heroDoctor, heroDoctor1, idSvg, lock, microphone, rocket, support, sWorkFlow1, sWorkFlow2, sWorkFlow3 } from "../assets";
-import { Button, Contact, Faq, StakeHolder, Testimonials } from "../components";
+import { Button, Contact, Faq, StakeHolder } from "../components";
 
 function ForDoctors() {
     return (<div className="w-full">
@@ -257,7 +257,6 @@ function ForDoctors() {
                 </div>
             </div>
         </section>
-        <Testimonials />
         <Faq />
         <Contact />
     </div>);
