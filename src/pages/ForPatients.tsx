@@ -1,4 +1,4 @@
-import { customize, demo, digitalConsultation, fastAccess, heroPatient, patientNeed1, patientNeed2, patientNeed3, patientNeed4, patientNeed5, rocket, support, templateDropdown } from "../assets";
+import { digitalConsultation, fastAccess, heroPatient, patientNeed1, patientNeed2, patientNeed3, patientNeed4, patientNeed5, templateDropdown } from "../assets";
 import { Button, Contact, Faq, StakeHolder, Steps } from "../components";
 
 function ForPatients() {
