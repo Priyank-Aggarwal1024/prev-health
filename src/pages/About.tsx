@@ -4,7 +4,7 @@ import { Contact } from "../components";
 export default function About() {
     return (
         <div className="w-full">
-            <section className="w-full px-5 overflow-hidden md:pt-[120px] pt-24 pb-20 md:pb-24 max-w-[1440px] flex flex-col items-center gap-12 mx-auto">
+            <section className="w-full min-h-screen px-5 overflow-hidden md:pt-[120px] pt-24 pb-20 md:pb-24 max-w-[1440px] flex flex-col items-center gap-12 mx-auto">
                 <div className="flex flex-col justify-center items-center gap-3 md:gap-4 w-full max-w-[980px]">
                     <h2 className="w-full text-center text-[#23586A] text-3xl sm:text-4xl lg:text-6xl font-medium font-['Lora'] leading-[135%] mx-auto">
                         Redefining Digital Healthcare Smarter, Faster, Human
@@ -18,7 +18,7 @@ export default function About() {
                     <img src={aboutDoctor} alt="Doctor Image" className="w-full md:rounded-tr-[60px] md:rounded-br-[0px] rounded-br-[60px]" />
                 </div>
             </section>
-            <section className="w-full md:px-20 px-5 md:py-24 py-16 mx-auto flex flex-col items-center gap-16 max-w-[1440px]">
+            <section className="w-full min-h-screen md:px-20 px-5 md:py-24 py-16 mx-auto flex flex-col items-center gap-16 max-w-[1440px]">
                 <div className="w-full max-w-[900px] flex flex-col items-center gap-4 text-center">
                     <div className="flex flex-col items-center gap-2 w-full">
                         <div className="inline-flex items-center gap-1 py-0.5 rounded-[10px]">
@@ -62,7 +62,7 @@ export default function About() {
 
                 </div>
             </section>
-            <section className="w-full md:py-24 py-16 max-w-[1440px]">
+            <section className="w-full min-h-screen md:py-24 py-16 max-w-[1440px]">
                 <div className="w-full md:px-20 px-5 md:py-24 py-16 flex flex-col gap-9">
                     <div className="inline-flex items-center gap-1 py-0.5 rounded-[10px]">
                         <div className="w-2.5 h-2.5 bg-[#fd8883] rounded-full"></div>
@@ -79,7 +79,7 @@ export default function About() {
 
                 </div>
             </section>
-            <section className="w-full md:px-20 px-5 md:py-24 py-16 mx-auto flex flex-col items-center gap-16 max-w-[1440px]">
+            <section className="w-full min-h-screen md:px-20 px-5 md:py-24 py-16 mx-auto flex flex-col items-center gap-16 max-w-[1440px]">
                 <div className="w-full max-w-[999px] flex flex-col items-center gap-4 text-center">
                     <div className="flex flex-col max-w-[514px] items-center gap-2 w-full">
                         <div className="inline-flex items-center gap-1 py-0.5 rounded-[10px]">

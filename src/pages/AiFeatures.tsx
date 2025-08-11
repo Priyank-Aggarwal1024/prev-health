@@ -4,7 +4,7 @@ import { Button, Contact, Faq, Features, Testimonials, Workflow } from "../compo
 function AiFeatures() {
     return (
         <div className="w-full">
-            <section className="w-full px-5 overflow-hidden md:pt-[120px] pt-24 pb-20 md:pb-24">
+            <section className="w-full min-h-screen px-5 overflow-hidden md:pt-[120px] pt-24 pb-20 md:pb-24">
                 <div className="w-full flex flex-col justify-start items-center gap-6 md:gap-8 lg:gap-12 max-w-[750px] mx-auto">
                     <div className="flex flex-col justify-start items-start gap-3 md:gap-5 w-full">
                         <h2 className="w-full text-center text-[#23586A] text-3xl sm:text-4xl lg:text-6xl font-medium font-['Lora'] leading-[135%]">
@@ -23,7 +23,7 @@ function AiFeatures() {
                     <img src={heroAIMobile} alt="Everything you need for faster, Smarter care" className="w-full relative md:hidden" />
                 </div>
             </section>
-            <section className="w-full lg:px-20 md:px-10 px-5 max-w-full">
+            <section className="w-full min-h-screen lg:px-20 md:px-10 px-5 max-w-full">
                 <div className="w-full md:max-w-[1280px] mx-auto inline-flex flex-col justify-start items-center gap-8 md:gap-12">
                     <div className="w-full md:w-[909px] flex flex-col justify-start items-center gap-4">
                         <div className="w-full md:w-[535px] flex flex-col justify-start items-center gap-2">

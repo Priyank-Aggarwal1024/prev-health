@@ -51,7 +51,7 @@ const featureData = [
 
 export default function Features() {
     return (
-        <div className="w-full px-4 max-w-[998px] mx-auto md:py-24 py-16 flex flex-col items-center gap-8 md:gap-10 lg:gap-12">
+        <div className="w-full px-4 max-w-[998px] mx-auto md:py-24 py-16 flex flex-col items-center gap-8 md:gap-10 lg:gap-12 min-h-screen">
             <div className="w-full max-w-[616px] flex flex-col items-center gap-2 md:gap-3">
                 <div className="py-1 rounded-[10px] inline-flex items-center gap-2">
                     <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-[#FD8883] rounded-full" />

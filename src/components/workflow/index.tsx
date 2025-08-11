@@ -2,7 +2,7 @@ import { workflow1, workflow2, workflow3 } from "../../assets";
 
 function Workflow() {
     return (
-        <section className="w-full lg:px-20 md:px-10 px-5 md:py-24 py-16">
+        <section className="w-full lg:px-20 md:px-10 px-5 md:py-24 py-16 min-h-screen">
             <div className="w-full flex flex-col items-center gap-8 md:gap-10 lg:gap-14">
                 <div className="w-full max-w-[672px] flex flex-col items-center gap-2 md:gap-3">
                     <div className="py-1 flex items-center gap-2">

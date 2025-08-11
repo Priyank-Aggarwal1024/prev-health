@@ -26,7 +26,7 @@ const Steps = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
     return (
-        <section className="w-full flex flex-col items-center gap-12 md:px-20 px-5 md:py-24 py-16">
+        <section className="w-full flex flex-col items-center gap-12 md:px-20 px-5 md:py-24 py-16 min-h-screen">
             <div className="w-full max-w-[475px] flex flex-col items-center gap-2.5">
                 <div className="rounded-[10px] inline-flex items-center gap-2">
                     <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-[#fd8883] rounded-full" />

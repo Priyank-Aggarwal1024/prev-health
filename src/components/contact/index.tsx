@@ -2,7 +2,7 @@ import { contactBanner } from "../../assets";
 
 function Contact() {
     return (
-        <section className="w-full px-5 sm:pt-24 sm:pb-32 pb-14 pt-8">
+        <section className="w-full px-5 sm:pt-24 sm:pb-32 pb-14 pt-8 min-h-screen">
             <div className="sm:px-0 px-5 w-full">
                 <img
                     src={contactBanner}

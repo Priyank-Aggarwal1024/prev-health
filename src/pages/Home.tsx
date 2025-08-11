@@ -5,7 +5,7 @@ import Button from "../components/button";
 export default function Home() {
     return (
         <div className="w-full">
-            <section className="w-full flex flex-col items-center gap-10 px-5 py-24 sm:px-10 sm:py-32">
+            <section className="w-full min-h-screen flex flex-col items-center gap-10 px-5 py-24 sm:px-10 sm:py-32">
                 <div className="flex flex-col items-center gap-5 max-w-[1023px]">
                     <h1 className="text-center text-[#23586A] font-medium font-[Lora] leading-[135%] text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
                         The Operating System for Modern Healthcare
@@ -51,7 +51,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <section className="w-full  max-w-[1560px] mx-auto md:pt-[122px] md:pb-[70px] pb-[50px] pt-32 bg-white">
+            <section className="w-full min-h-screen  max-w-[1560px] mx-auto md:pt-[122px] md:pb-[70px] pb-[50px] pt-32 bg-white">
                 <div className="w-full max-w-[937px] mx-auto flex flex-col items-center gap-3 md:gap-4 px-4">
                     <div className="flex items-center gap-1 py-0.5 rounded-[10px]">
                         <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-[#FD8883] rounded-full" />
@@ -67,7 +67,7 @@ export default function Home() {
                     </p>
                 </div>
             </section>
-            <section className="w-full flex flex-col gap-18 md:px-20 px-5 max-w-[1560px] mx-auto overflow-hidden">
+            <section className="w-full min-h-screen flex flex-col gap-18 md:px-20 px-5 max-w-[1560px] mx-auto overflow-hidden">
                 <div className="w-full flex lg:flex-row flex-col-reverse gap-6 h-full">
                     <div className="w-full h-full flex items-end justify-start mt-auto">
                         <div className="w-full lg:max-w-[579px] flex flex-col items-start gap-3 md:gap-4">
@@ -118,7 +118,7 @@ export default function Home() {
                 </div>
             </section>
             <Care />
-            <section className="w-full px-5 sm:px-10 lg:px-20 py-16 md:pb-24 md:pt-20 overflow-hidden max-w-[1560px] mx-auto">
+            <section className="w-full min-h-screen px-5 sm:px-10 lg:px-20 py-16 md:pb-24 md:pt-20 overflow-hidden max-w-[1560px] mx-auto">
                 <div className="w-full flex flex-col lg:flex-row justify-start items-center gap-8 lg:gap-20">
                     <div className="w-full lg:w-[613px] flex flex-col justify-start items-start gap-6 lg:gap-8">
                         <div className="flex flex-col justify-start items-start gap-4">
@@ -155,7 +155,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <div className="w-full max-w-[1560px] mx-auto px-5 sm:px-10 lg:px-20 py-16 md:pb-24 md:pt-20 flex flex-col items-center gap-16 md:gap-18 ">
+            <div className="w-full min-h-screen max-w-[1560px] mx-auto px-5 sm:px-10 lg:px-20 py-16 md:pb-24 md:pt-20 flex flex-col items-center gap-16 md:gap-18 ">
                 <div className="w-full max-w-[609px] flex flex-col items-center gap-3 md:gap-4 text-center">
                     <div className="flex items-center gap-1 py-0.5 rounded-[10px]">
                         <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-[#FD8883] rounded-full" />

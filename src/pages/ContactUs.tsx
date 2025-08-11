@@ -4,7 +4,7 @@ import { Button, Faq } from "../components";
 function ContactUs() {
     return (
         <div className="w-full">
-            <section className="w-full px-5 overflow-hidden md:pt-[120px] pt-24 pb-20 md:pb-24 max-w-[1440px] flex flex-col items-center gap-12 mx-auto">
+            <section className="w-full min-h-screen px-5 overflow-hidden md:pt-[120px] pt-24 pb-20 md:pb-24 max-w-[1440px] flex flex-col items-center gap-12 mx-auto">
                 <div className="flex flex-col justify-center items-center gap-3 md:gap-4 w-full max-w-[980px]">
                     <h2 className="w-full text-center text-[#23586A] text-3xl sm:text-4xl lg:text-6xl font-medium font-['Lora'] leading-[135%] mx-auto">
                         Ready to Get Started?

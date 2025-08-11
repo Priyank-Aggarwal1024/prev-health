@@ -3,7 +3,7 @@ import { Button, Contact, Faq, StakeHolder, Steps } from "../components";
 
 function ForPatients() {
     return (<div className="w-full">
-        <section className="w-full px-5 md:px-20 overflow-hidden md:pt-[120px] pt-24 pb-20 md:pb-24 max-w-full flex md:flex-row flex-col">
+        <section className="w-full min-h-screen px-5 md:px-20 overflow-hidden md:pt-[120px] pt-24 pb-20 md:pb-24 max-w-full flex md:flex-row flex-col">
             <div className="w-full flex flex-col justify-start items-center md:items-start gap-6 md:gap-8 lg:gap-12 max-w-[700px] mx-auto">
                 <div className="flex flex-col justify-start md:items-start items-center gap-3 md:gap-4 w-full">
                     <h2 className="w-full text-center md:text-left text-[#23586A] text-3xl sm:text-4xl lg:text-6xl font-medium font-['Lora'] leading-[135%] max-w-[632px]">
@@ -31,7 +31,7 @@ function ForPatients() {
                 }} />
             </div>
         </section>
-        <section className="w-full flex flex-col items-center gap-12 md:px-20 px-5 md:py-24 py-16">
+        <section className="w-full min-h-screen flex flex-col items-center gap-12 md:px-20 px-5 md:py-24 py-16">
             <div className="w-full max-w-[933px] flex flex-col items-center gap-2.5">
                 <div className="rounded-[10px] inline-flex items-center gap-2">
                     <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-[#fd8883] rounded-full" />
@@ -101,7 +101,7 @@ function ForPatients() {
                 </div>
             </div>
         </section>
-        <section className="w-full flex flex-col items-center gap-12 md:px-20 px-5 md:py-24 py-16">
+        <section className="w-full min-h-screen flex flex-col items-center gap-12 md:px-20 px-5 md:py-24 py-16">
             <div className="w-full max-w-[445px] flex flex-col items-center gap-2.5">
                 <div className="rounded-[10px] inline-flex items-center gap-2">
                     <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-[#fd8883] rounded-full" />

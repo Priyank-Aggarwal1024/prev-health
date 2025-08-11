@@ -3,7 +3,7 @@ import { Button, Contact, Faq, StakeHolder } from "../components";
 
 function ForDoctors() {
     return (<div className="w-full">
-        <section className="w-full px-5 overflow-hidden md:pt-[120px] pt-24 pb-20 md:pb-24 max-w-full">
+        <section className="w-full min-h-screen px-5 overflow-hidden md:pt-[120px] pt-24 pb-20 md:pb-24 max-w-full">
             <div className="w-full flex flex-col justify-start items-center gap-6 md:gap-8 lg:gap-12 max-w-[743px] mx-auto">
                 <div className="flex flex-col justify-start items-start gap-3 md:gap-4 w-full">
                     <h2 className="w-full text-center text-[#23586A] text-3xl sm:text-4xl lg:text-6xl font-medium font-['Lora'] leading-[135%] max-w-[632px] mx-auto">
@@ -30,7 +30,7 @@ function ForDoctors() {
             </div>
         </section>
 
-        <section className="w-full flex flex-col items-center gap-12 md:px-20 px-5 md:py-24 py-16">
+        <section className="w-full min-h-screen flex flex-col items-center gap-12 md:px-20 px-5 md:py-24 py-16">
             <div className="w-full max-w-[535px] flex flex-col items-center gap-2.5">
                 <div className="rounded-[10px] inline-flex items-center gap-2">
                     <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-[#fd8883] rounded-full" />
@@ -85,7 +85,7 @@ function ForDoctors() {
                 </div>
             </div>
         </section>
-        <section className="w-full flex flex-col items-center gap-12 md:px-20 px-5 md:py-24 py-16">
+        <section className="w-full min-h-screen flex flex-col items-center gap-12 md:px-20 px-5 md:py-24 py-16">
             <div className="w-full max-w-[475px] flex flex-col items-center gap-2.5">
                 <div className="rounded-[10px] inline-flex items-center gap-2">
                     <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-[#fd8883] rounded-full" />
@@ -151,7 +151,7 @@ function ForDoctors() {
                 </div>
             </div>
         </section>
-        <div className="w-full flex flex-col lg:flex-row justify-start items-start lg:items-start  gap-12 md:px-20 px-5 md:py-24 py-16  max-w-[1440px] mx-auto">
+        <div className="w-full min-h-screen flex flex-col lg:flex-row justify-start items-start lg:items-start  gap-12 md:px-20 px-5 md:py-24 py-16  max-w-[1440px] mx-auto">
             <div className="w-full max-w-[420px] flex flex-col justify-start items-start gap-12">
                 <div className="flex flex-col justify-start items-start gap-2.5">
                     <div className="py-1 rounded-[10px] inline-flex justify-center items-center gap-2">
@@ -225,7 +225,7 @@ function ForDoctors() {
             </Button>
         </div>
         <StakeHolder />
-        <section className="w-full flex flex-col items-center gap-12 md:px-20 px-5 md:py-24 py-16 max-w-[1063px] mx-auto">
+        <section className="w-full min-h-screen flex flex-col items-center gap-12 md:px-20 px-5 md:py-24 py-16 max-w-[1063px] mx-auto">
             <div className="w-full max-w-[616px] flex flex-col items-center gap-2.5">
                 <div className="rounded-[10px] inline-flex items-center gap-2">
                     <div className="w-2 h-2 md:w-2.5 md:h-2.5 bg-[#fd8883] rounded-full" />
